@@ -17,9 +17,9 @@ function App() {
       </section>
       <section className='btn-login'>
         <span>¿Olvidaste tu contraseña?</span>
-        <button className='login'>Iniciar Sesión</button>
+        <button className='btn login'>Iniciar Sesión</button>
         <span>o</span>
-        <button className='create'>Create una cuenta</button>
+        <button className='btn create'>Create una cuenta</button>
       </section>
     </>
   )
