@@ -46,7 +46,7 @@ input{
     font-size: 24px;
 }
 
-.btn-login{
+.accion-login{
     background-color: #FFFFFF;
     height: 280px;
     border-radius: 60px 60px 0px 0px;
@@ -56,30 +56,33 @@ input{
     align-items: center;
 }
 
-.btn-login> span {
+.accion-login> span {
     font-family: "Itim", cursive;
     color:#636363;
     font-size: 24px;
     margin: 10px 0px;
+
 }
 
 .btn {
     font-family: "Itim", cursive;
     font-size: 24px;
     border-radius: 16px;
-    width: 80vw;
+    width: 80vw; /* vw -> view width */
     height: 55px;
-    margin: 5px 40px;
-    border: 0;
-    box-shadow: 0px 5px 2px rgb(213, 212, 212);
+    border: none;
 }
 
-.login {
+.btn-login {
     background-color: #4C8479;
     color: #FFFFFF;
 }
 
-.create {
+.btn-create-account {
+    display: flex;
+    align-items: center;
     background-color: #9CB9B3;
-    color: #000000;
+    color: #000;
+    text-decoration: none;
+    justify-content: center;
 }
